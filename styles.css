@@ -1,0 +1,118 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d258aa;
+    ;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  /* Home section styles */
+  .home {
+    text-align:center;
+    padding: 100px 0;
+  }
+  
+  .background-image {
+    background-position:center;
+   /* Add background image styles */
+  }
+  
+  .description h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Shop section styles */
+  .shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+  
+  .product {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 150px;
+  }
+  
+  .product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:rgb(32, 112, 203);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: white;
+  }
+  
+  /* About section styles */
+  .about {
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color:#d258aa;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+ /* Checkout page styles */
+ form {
+  margin-top: 1rem;
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+form select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+form button {
+  padding: 15px 0;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #555;
+}
+/* Confirmation page styles */
+.confirmation-message {
+  margin-top: 1 rem;
+  padding: 15px 0;
+}
